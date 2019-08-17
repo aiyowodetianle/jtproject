@@ -7,6 +7,13 @@
   </parent>
   <artifactId>mh-manage</artifactId>
   <packaging>war</packaging>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.mh</groupId>
+  		<artifactId>mh-common</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
   <build>
 		<plugins>
 			<!--跳过测试类打包 -->
@@ -25,5 +32,5 @@
 			</plugin>
 		</plugins>
 	</build>
+  
 </project>
-
